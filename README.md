@@ -11,7 +11,7 @@ class Main(Frame):
     def build(self):
         pass
  
-    def logicalc(operation, self):
+    def logicalc( self,operation ):
         pass
 
     def update():
@@ -21,7 +21,7 @@ class Main(Frame):
 if __name__ == '__main__':
     root = Tk()
     root["bg"] = "#000"
-    root.geometry("550x480+200+200")
+    root.geometry("14x48+20+100")
     root.title("Калькулятор")
     root.resizable(False, False)
     app = Main(root)
