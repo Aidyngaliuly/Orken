@@ -3,7 +3,7 @@ student of SDU
 from tkinter import *
 
 
-class Main(Frame):
+class Main:
     def __init__(root, self):
         super(Main, self).__init__(root)
         self.build()
@@ -20,10 +20,10 @@ class Main(Frame):
 
 if __name__ == '__main__':
     root = Tk()
-    root["bg"] = "#000"
+    root["bg"] = "
     root.geometry("14x48+20+100")
     root.title("Калькулятор")
     root.resizable(False, False)
-    app = Main(root)
+    app = Mainroot)
     app.pack()
     root.mainloop()
